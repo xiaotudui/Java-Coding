@@ -23,6 +23,7 @@
     <modules>
         <module>Java-Concurrent</module>
         <module>JVM</module>
+        <module>Java-Basic</module>
     </modules>
     <dependencies>
         <dependency>

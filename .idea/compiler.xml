@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-Concurrent" />
+        <module name="Java-Basic" />
         <module name="JVM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Java-Basic" target="8" />
       <module name="Java-Concurrent" target="8" />
       <module name="Java-JVM" target="8" />
       <module name="JVM" target="8" />

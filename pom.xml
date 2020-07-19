@@ -24,6 +24,7 @@
         <module>Java-Concurrent</module>
         <module>JVM</module>
         <module>Java-Basic</module>
+        <module>PatternDesign</module>
     </modules>
     <dependencies>
         <dependency>

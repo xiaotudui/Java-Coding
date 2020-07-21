@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-Concurrent" />
+        <module name="Java-NIO" />
         <module name="PatternDesign" />
         <module name="Java-Basic" />
         <module name="JVM" />
@@ -16,6 +17,7 @@
       <module name="Java-Basic" target="8" />
       <module name="Java-Concurrent" target="8" />
       <module name="Java-JVM" target="8" />
+      <module name="Java-NIO" target="8" />
       <module name="JVM" target="8" />
       <module name="PatternDesign" target="8" />
     </bytecodeTargetLevel>

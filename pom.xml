@@ -25,6 +25,7 @@
         <module>JVM</module>
         <module>Java-Basic</module>
         <module>PatternDesign</module>
+        <module>Java-NIO</module>
     </modules>
     <dependencies>
         <dependency>

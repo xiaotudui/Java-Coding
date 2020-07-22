@@ -1,10 +1,11 @@
 package Stack;
 
-import javax.sound.midi.Soundbank;
 
-public class stack {
+public class StackTest {
+    static int a = 1;
     public static void main(String[] args) {
-        stack stack = new stack();
+        System.out.println(a);
+        StackTest stack = new StackTest();
         stack.method1();
     }
 

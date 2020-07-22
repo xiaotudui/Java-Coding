@@ -27,6 +27,8 @@
         <module>PatternDesign</module>
         <module>Java-NIO</module>
         <module>Java-LeetCode</module>
+        <module>JVM2</module>
+        <module>Interview</module>
     </modules>
     <dependencies>
         <dependency>

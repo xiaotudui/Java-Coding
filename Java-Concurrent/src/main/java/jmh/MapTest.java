@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
+@Threads(4)
 public class MapTest {
     static Map hashmap = new HashMap<String, String>();
     static Map syncHashMap = Collections.synchronizedMap(new HashMap<String, String>());
@@ -60,7 +61,6 @@ public class MapTest {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder().include(MapTest.class.getSimpleName())
-                .output("map.log")
                 .forks(1).build();
         new Runner(opt).run();
 

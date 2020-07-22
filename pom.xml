@@ -26,6 +26,7 @@
         <module>Java-Basic</module>
         <module>PatternDesign</module>
         <module>Java-NIO</module>
+        <module>Java-LeetCode</module>
     </modules>
     <dependencies>
         <dependency>

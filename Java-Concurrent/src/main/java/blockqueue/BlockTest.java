@@ -47,4 +47,7 @@ class BlockQ<E>{
 }
 
 public class BlockTest {
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 }

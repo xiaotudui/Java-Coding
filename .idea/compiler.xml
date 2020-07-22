@@ -2,21 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java-Concurrent" />
-        <module name="Java-NIO" />
-        <module name="PatternDesign" />
         <module name="Java-Basic" />
+        <module name="PatternDesign" />
+        <module name="Java-LeetCode" />
         <module name="JVM" />
+        <module name="Java-NIO" />
+        <module name="Java-Concurrent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Java-Basic" target="8" />
       <module name="Java-Concurrent" target="8" />
       <module name="Java-JVM" target="8" />
+      <module name="Java-LeetCode" target="8" />
       <module name="Java-NIO" target="8" />
       <module name="JVM" target="8" />
       <module name="PatternDesign" target="8" />

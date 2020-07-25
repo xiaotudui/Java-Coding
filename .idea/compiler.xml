@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-Concurrent" />
+        <module name="Java-Web" />
         <module name="Java-Basic" />
         <module name="Interview" />
         <module name="JVM" />
         <module name="JVM2" />
+        <module name="SpringBoot-Web" />
         <module name="Java-NIO" />
         <module name="PatternDesign" />
       </profile>
@@ -23,9 +25,16 @@
       <module name="Java-JVM" target="8" />
       <module name="Java-LeetCode" target="8" />
       <module name="Java-NIO" target="8" />
+      <module name="Java-Web" target="8" />
       <module name="JVM" target="8" />
       <module name="JVM2" target="8" />
       <module name="PatternDesign" target="8" />
+      <module name="SpringBoot-Web" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-Web" options="-parameters" />
+    </option>
   </component>
 </project>

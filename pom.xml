@@ -29,6 +29,8 @@
         <module>Java-LeetCode</module>
         <module>JVM2</module>
         <module>Interview</module>
+        <module>Java-Web</module>
+        <module>Review</module>
     </modules>
     <dependencies>
         <dependency>
